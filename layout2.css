@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+header, footer {
+    height: 100px;
+    clear: both;
+    border: 2px solid black;
+}
+
+.top-brick {
+    height: 150px;
+    border: 2px solid black;
+    clear:both;
+}
+
+.left-brick, .right-brick {
+    height: 200px;
+    border: 2px solid black;
+    
+}
+
+.left-brick {
+    width: 40%;
+    float: left;
+}
+
+.right-brick {
+    width: 60%;
+    float: right;
+}
